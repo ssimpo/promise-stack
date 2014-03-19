@@ -1,0 +1,46 @@
+{
+  "name": "promise-stack",
+  "version": "0.0.1",
+  "description": "A Q promise module for stacking promises.  Each instance of the the stack returns a promise, which is only fulfilled when every promise in the stack is resolved.  Different to Q.all() in that new promises can be added asynchronously after initialisation.  Uses the Q promise module.",
+  "keywords": [
+    "Q",
+    "promises",
+    "stack",
+    "asynchronous",
+    "array",
+    "promises-a",
+    "async",
+    "deferred"
+  ],
+  "author": {
+    "name": "Stephen Simpson",
+    "email": "me@simpo.org",
+    "url": "http://simpo.org"
+  },
+  "homepage": "https://github.com/ssimpo/promise-stack.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ssimpo/promise-stack.git"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "test": "proof platform win32 && proof test */*/*.t.js || t/test"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "dependencies": {
+    "q": "*"
+  },
+  "devDependencies": {
+  },
+  "bugs": {
+    "url": "https://github.com/ssimpo/promise-stack/issues",
+    "email": "me@simpo.org"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "http://choosealicense.com/licenses/mit/"
+  },
+  "readmeFilename": "readme.md"
+}
