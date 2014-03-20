@@ -30,8 +30,7 @@
     "node": ">=0.6.0"
   },
   "dependencies": {
-    "q": "*",
-    "meld": "~1.3.0"
+    "q": "*"
   },
   "devDependencies": {
   },
