@@ -30,7 +30,8 @@
     "node": ">=0.6.0"
   },
   "dependencies": {
-    "q": "*"
+    "q": "*",
+    "meld": "~1.3.0"
   },
   "devDependencies": {
   },
@@ -40,7 +41,7 @@
   },
   "license": {
     "type": "MIT",
-    "url": "http://choosealicense.com/licenses/mit/"
+    "url": "https://github.com/ssimpo/promise-stack/blob/master/LICENSE"
   },
   "readmeFilename": "readme.md"
 }
